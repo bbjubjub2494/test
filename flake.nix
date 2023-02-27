@@ -33,7 +33,7 @@
       };
 
       hercules-ci.flake-update.enable = true;
-      hercules-ci.flake-update.when.dayOfWeek = ["Tue"];
+      hercules-ci.flake-update.when = {};
 
       flake = {
         # The usual flake attributes can be defined here, including system-
